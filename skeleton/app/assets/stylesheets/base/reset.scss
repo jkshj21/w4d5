@@ -1,0 +1,79 @@
+/* PHASE 0: Reset */
+
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin:inherit;
+  padding: inherit;
+  border: inherit;
+  outline: inherit;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: inherit;
+}
+header {
+ display: flex;
+}
+
+nav ul {
+  display: flex;
+  margin-right: 10px;
+  padding: 10px 2px;
+  font-family: "Bree Serif";
+  font: 15px solid;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left:0px;
+}
+
+.clearfix:after {
+  content:"";
+  display: block;
+  clear:both;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+ol, ul {
+  // list-style:
+}
+
+img {
+  // display:
+  // width:
+  // height:
+}
+
+input[type="password"],
+input[type="email"],
+input[type="text"],
+input[type="submit"],
+textarea,
+button {
+  /*
+  Get rid of native styling. Read more here:
+  http://css-tricks.com/almanac/properties/a/appearance/
+  */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+button,
+input[type="submit"] {
+  // cursor:
+}
+
+/* Clearfix */
+
+.group:after {
+  // ...
+}
